@@ -1,0 +1,36 @@
+{
+    "name": "web-framework",
+    "version": "1.0.0",
+    "description": "Fullstack web-framework using express, mysql, ejs, and more",
+    "main": "index.js",
+    "scripts": {
+        "build:docs": "jsdoc src -r -d ./src/docs",
+        "dev": "nodemon -e js,css,html,ejs index.js",
+        "test": "jest",
+        "test:detectHandles": "jest --detectOpenHandles"
+    },
+    "author": "Jack Perry <hello@jackperry.co>",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "chalk": "^4.1.2",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dateformat": "^4.6.3",
+        "dotenv": "^16.4.1",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "express-mysql-session": "^3.0.0",
+        "express-session": "^1.18.0",
+        "jsdoc": "^4.0.2",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1",
+        "node-fetch-commonjs": "^3.3.2",
+        "nodemon": "^3.0.3",
+        "rotating-file-stream": "^3.2.1",
+        "util": "^0.12.5",
+        "uuid": "^9.0.1"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
