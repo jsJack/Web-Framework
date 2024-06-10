@@ -28,7 +28,7 @@
         "nodemon": "^3.0.3",
         "rotating-file-stream": "^3.2.1",
         "util": "^0.12.5",
-        "uuid": "^9.0.1"
+        "uuid": "^10.0.0"
     },
     "devDependencies": {
         "jest": "^29.7.0"
