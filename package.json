@@ -11,7 +11,7 @@
     },
     "author": "Jack Perry <hello@jackperry.co>",
     "dependencies": {
-        "body-parser": "^1.20.2",
+        "body-parser": "^2.0.0",
         "chalk": "^4.1.2",
         "cookie-parser": "^1.4.6",
         "cors": "^2.8.5",
